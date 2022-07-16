@@ -29,25 +29,25 @@ test {
 }
 
 
-artifactory {
-contextUrl = 'http://44.206.234.249:8082/artifactory/Gradle_1/' 
-publish {
-    repository {
-    repokey= 'libs -snapshot-local'
-    username = $"{artifactory_user}"
-    password = $"{artifactory_password}"
-    }
-    defaults {
-        publications('mavenJava')
-        publishArtifacts = true
-        properties = ['qa.level': 'basic', 'dev.team' : 'core']
-        publishPom = true
-        }
-   }
-   resolve {
-        repokey = 'jcenter'
-      }
-}
+//artifactory {
+//contextUrl = 'http://44.206.234.249:8082/artifactory/Gradle_1/' 
+//publish {
+   // repository {
+  //  repokey= 'libs -snapshot-local'
+    //username = $"{artifactory_user}"
+    //password = $"{artifactory_password}"
+    //}
+    //defaults {
+      //  publications('mavenJava')
+        //publishArtifacts = true
+        //properties = ['qa.level': 'basic', 'dev.team' : 'core']
+        //publishPom = true
+        //}
+   //}
+   //resolve {
+     //  repokey = 'jcenter'
+      //}
+//}
 sonarqube {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
