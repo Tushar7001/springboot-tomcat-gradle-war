@@ -30,7 +30,7 @@ test {
 
 
 artifactory {
-contextUrl = 'http://44.206.234.249:8082/artifactory' 
+contextUrl = 'http://44.206.234.249:8082/artifactory/Gradle_1/' 
 publish {
     repository {
     repokey= 'libs -snapshot-local'
