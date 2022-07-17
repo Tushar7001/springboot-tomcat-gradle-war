@@ -27,6 +27,8 @@ dependencies {
 repositories {
         maven {
                     url "http://44.206.234.249:8082/artifactory/test1/"
+               }
+             }
 
 test {
     useJUnitPlatform()
