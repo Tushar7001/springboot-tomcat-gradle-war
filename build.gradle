@@ -29,8 +29,8 @@ dependencies {
     publish {
         repository {
             repoKey = 'gradle-dev-local'
-            username = "jenkins"
-            password = "Tushar@11"
+            username = 'jenkins;
+            password = 'Tushar@11'
             maven = true
             
         }
@@ -38,8 +38,8 @@ dependencies {
     resolve {
         repository {
             repoKey = 'gradle-dev'
-            username = "jenkins"
-            password = "Tushar@11"
+            username = 'jenkins'
+            password = 'Tushar@11'
             maven = true
             
         }
