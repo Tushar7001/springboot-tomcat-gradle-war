@@ -25,7 +25,7 @@ dependencies {
    }
    
    artifactory {
-    contextUrl = "${http://3.84.112.130:8082/artifactory}"   //The base Artifactory URL if not overridden by the publisher/resolver
+    contextUrl = "http://3.84.112.130:8082/artifactory"   //The base Artifactory URL if not overridden by the publisher/resolver
     publish {
         repository {
             repoKey = 'gradle-dev-local'
