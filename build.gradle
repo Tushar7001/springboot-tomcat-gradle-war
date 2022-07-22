@@ -29,7 +29,7 @@ dependencies {
     publish {
         repository {
             repoKey = 'gradle-dev-local'
-            username = 'jenkins;
+            username = 'jenkins';
             password = 'Tushar@11'
             maven = true
             
