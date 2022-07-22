@@ -29,8 +29,8 @@ dependencies {
     publish {
         repository {
             repoKey = 'gradle-dev-local'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
+            username = "jenkins"
+            password = "Tushar@11"
             maven = true
             
         }
